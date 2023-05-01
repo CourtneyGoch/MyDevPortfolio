@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub, FaTelegram } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useContext } from 'react';
-// import DataContext from '../context/DataContext';
+import DataContext from '../context/DataContext';
 
 
 const SocialLinks = () => {

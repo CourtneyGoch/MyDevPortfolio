@@ -3,7 +3,7 @@ import candyCrush from "../assets/portfolio/candy.png";
 import enkokilish from "../assets/portfolio/enkokilish.png";
 import netflix from "../assets/portfolio/netflix-clone.jpg"
 import { useContext } from 'react';
-// import DataContext from '../context/DataContext';
+import DataContext from '../context/DataContext';
 
 const Portfolio = () => {
 

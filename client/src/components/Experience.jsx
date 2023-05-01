@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useContext } from 'react';
-// import DataContext from '../context/DataContext';
+import DataContext from '../context/DataContext';
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
