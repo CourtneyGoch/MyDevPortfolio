@@ -258,6 +258,7 @@ button:focus {
   position: relative;
   z-index: -1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  animation: bounce 130s ease-in-out alternate infinite;
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
