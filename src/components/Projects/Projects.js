@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import leaf from "../../Assets/Projects/ggss.jpeg";
+import emotion from "../../Assets/Projects/password.png";
+import editor from "../../Assets/Projects/schedule.png";
+import chatify from "../../Assets/Projects/gamersgauntlet.png";
+import suicide from "../../Assets/Projects/team.png";
+import bitsOfCode from "../../Assets/Projects/techblog.png";
 
 function Projects() {
   return (
@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Gamer's Gauntlet Quiz"
+              description="GamerGauntlet App is a thrilling quiz game that will put your knowledge of video games to the test. The app features an extensive range of questions covering both classic and modern games, characters, storylines, and gameplay mechanics. With such a diverse range of topics, you'll never run out of challenging questions to answer."
+              ghLink="https://github.com/GarrettAnderson/react-gamers-gauntlet"
+              demoLink="https://calm-anchorage-14292.herokuapp.com/"
             />
           </Col>
 
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Tech Blog"
+              description="A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. Using express.js, Handlebars, MySQL and sequelize."
+              ghLink="https://github.com/CourtneyGoch/TechByteBlog"
+              demoLink="https://whispering-headland-27834.herokuapp.com/dashboard"
             />
           </Col>
 
@@ -47,10 +47,12 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Work Scheduler App"
+              description="A Day/Work Schedule
+
+              A Daily Planner, laid out in color-coded blocks with user-friendly interface to add events with dates and times. See Issue #1 for User story and Acceptance Criteria"
+              ghLink="https://github.com/CourtneyGoch/NoTimeWasted"
+              demoLink="https://courtneygoch.github.io/NoTimeWasted/"              
             />
           </Col>
 
@@ -58,10 +60,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Quiz App Alpha"
+              description="GamerGauntlet App is a fun and challenging quiz game that tests your knowledge of video games. With a wide variety of questions covering classic and modern games, characters, storylines, gameplay mechanics, and more, you'll be sure to find something to challenge your gaming expertise."
+              ghLink="https://github.com/GarrettAnderson/gamers-gauntlet"
+              demoLink="https://powerful-inlet-74359.herokuapp.com/"
             />
           </Col>
 
@@ -69,10 +71,15 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Employee Tracker App"
+              description="Creating an application that will generate basic info for employees with ease.
+
+              With this application the user will be able to quickly view team's gitHub's profiles.
+              
+              I learned how to use node effectively to generate html files.
+              
+              This project stands out because of it's ease of use and readibility of the final html generated."
+              ghLink="https://github.com/CourtneyGoch/TeamWorkDreamWork"
             />
           </Col>
 
@@ -80,11 +87,12 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Password Generator"
+              description="Creating a Password Generator!
+
+              This website will run a code in which alerts will prompt the user to generate a unique password based on established parameters."
+              ghLink="https://github.com/CourtneyGoch/WhatsThePasswordn"
+              demoLink="https://courtneygoch.github.io/WhatsThePassword/"
             />
           </Col>
         </Row>
